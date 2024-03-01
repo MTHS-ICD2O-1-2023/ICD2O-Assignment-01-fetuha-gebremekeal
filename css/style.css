@@ -1,4 +1,168 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Fetuha 
+* Created on: Feb 2024
 * This file contains the CSS for index.html
 */
+h1,
+h2,
+h3,
+.header-text {
+  font-family: 'Molengo', Georgia, Times, serif;
+}
+
+img {
+  border-radius: 100%;
+}
+
+li {
+  font-family: 'Lekton', Helvetica, Arial, sans-serif;
+  list-style-position: inside;
+}
+
+.footer {
+  float: right;
+}
+
+.header {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+  display: inline-block;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-and-footer {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+  color: white;
+  opacity: 0.9;
+}
+
+.header-and-footer a {
+  color: white;
+  width: 100%;
+}
+
+.header-img {
+  height: 50px;
+  width: 50px;
+}
+
+.header-img,
+.header-text {
+  float: left;
+  margin: 20px 3px;
+}
+
+.header-nav {
+  float: right;
+  margin-right: 20px;
+}
+
+.header-text {
+  font-size: 1.5em;
+}
+
+.hopper-bio a {
+  color: #99671d;
+}
+
+.hopper-bio-div {
+  background: url(https://s-media-cache-ak0.pinimg.com/236x/30/b8/7f/30b87f688d085159b92f8adbf29c4fad.jpg);
+  margin: 10px;
+  width: 48%;
+}
+
+.hopper-page-img {
+  width: 200px;
+  margin: 0px auto;
+}
+
+.last-li {
+  position: relative;
+  left: 10%;
+  width: 75%;
+}
+
+.last-li li {
+  text-align: center;
+}
+
+.menu-button {
+  display: none;
+  font-size: 1.8em;
+  height: 40px;
+  width: 40px;
+}
+
+.nav-elem {
+  margin: 0px 5px;
+  float: left;
+}
+
+.nav-elem-container {
+  float: right;
+}
+
+.page-content {
+  background: url(https://webdesignledger.com/wp-content/uploads/2012/09/patterns03a.jpg);
+  padding: 10px;
+}
+
+.page-title {
+  position: relative;
+  margin-top: 50px;
+}
+
+@media (max-width: 1037px) {
+  li {
+    list-style-position: outside;
+  }
+
+  .hopper-bio-div {
+    position: relative;
+    left: 25%;
+  }
+
+  .last-li {
+    position: static;
+    left: 0%;
+    width: 100%;
+  }
+
+  .last-li li {
+    text-align: left;
+  }
+}
+
+/*Credit for this goes to Mat Helme, for his article:
+http://blog.teamtreehouse.com/create-an-absolute-basic-mobile-css-responsive-navigation-menu*/
+@media only screen and (max-width : 640px) {
+
+  .menu-button {
+    display: inline-block;
+  }
+
+  .header-nav .nav-elem {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .header-nav .nav-elem-container,
+  .header-nav:active .nav-elem-container {
+    background: #000;
+    border: 5px solid #444;
+    border-radius: 4px 0 4px 4px;
+    display: none;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: 25%;
+  }
+
+  .header-nav:hover .nav-elem-container {
+    display: block;
+  }
+}
