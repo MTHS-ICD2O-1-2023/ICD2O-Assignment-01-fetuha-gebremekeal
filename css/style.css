@@ -61,17 +61,7 @@ li {
   font-size: 8em;
 }
 
-.hopper-bio a {
-  color: #99671d;
-}
-
-.hopper-bio-div {
-  background: url(https://s-media-cache-ak0.pinimg.com/236x/30/b8/7f/30b87f688d085159b92f8adbf29c4fad.jpg);
-  margin: 10px;
-  width: 48%;
-}
-
-.hopper-page-img {
+.backus-page-img {
   width: 200px;
   margin: 0px auto;
 }
